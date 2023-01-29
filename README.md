@@ -1,16 +1,16 @@
 # cloudinary-demo
 
 ## Introduction
-This is a VUE application that consumes the Cloudinary API. It shows how to incorporate the image upload widget onto your application.
+This is a VUE application that consumes the [Cloudinary API](https://cloudinary.com). It shows how to incorporate the image upload widget onto your application.
 
 ![screenshot](https://raw.githubusercontent.com/achongsBiz/readme-files/master/cloudinary-demo/flow.png)
 
 ## Registration
-1. Get a Cloudinary account. 
+1. Sign up for a Cloudinary account. 
 
 2. You will be assigned a "cloud name". This information is featured prominently in various places, but it's always on the top right corner when you log in. On the screenshot it's the value "dwinynet5."
 
-3. You need to create an upload preset. This information is under the Sections section > Upload. Scroll to the Uploads Preset section and chose "Add upload preset". In the next page, **make sure the Signing Mode is "Unsigned"**. You should now see an upload preset name. On the screenshot below it's "sxboyxik".
+3. You need to create an unsigned upload preset. This information is under the Settings > Upload. Scroll to the Uploads Preset section and chose "Add upload preset". In the next page, **make sure the Signing Mode is "Unsigned"**. Save your new preset. You should now see an upload preset name. On the screenshot below it's "sxboyxik".
 
 ![screenshot](https://raw.githubusercontent.com/achongsBiz/readme-files/master/cloudinary-demo/setup.png)
 
@@ -45,14 +45,18 @@ result.info.url
 
 ## Running this Demo
 
+This project contains a simple implementation of the above steps.
+
 1. From within the project:
 ```
 npm install
 npm run serve
 ```
 
-2. On your app, click on Upload button and select an image
+2. On your app, click on the upload button and select an image
 
 3. View the console to see the URL discussed on step 3 of the previous section.
 
 4. Uploaded images can be viewed at any time by logging into Cloudinary and going into "Media Library".
+
+![screenshot](https://raw.githubusercontent.com/achongsBiz/readme-files/master/cloudinary-demo/dashboard.png)
