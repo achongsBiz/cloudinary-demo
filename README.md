@@ -1,7 +1,7 @@
 # cloudinary-demo
 
 ## Introduction
-This is a VUE application that consumes the [Cloudinary API](https://cloudinary.com). It shows how to incorporate the image upload widget onto your application.
+This is a demo application that consumes the [Cloudinary API](https://cloudinary.com). It shows how to incorporate the image upload widget onto your application. There is a React and VUE.js version each in its own project folder.
 
 ![screenshot](https://raw.githubusercontent.com/achongsBiz/readme-files/master/cloudinary-demo/flow.png)
 
